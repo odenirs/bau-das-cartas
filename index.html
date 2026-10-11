@@ -301,8 +301,15 @@ h1 {
 <script>
 // Para adicionar uma carta: salve a imagem na pasta cards/ e acrescente uma linha na lista abaixo.
 // O id precisa ser único e nunca mudar (o álbum de cada pessoa usa ele).
-const TOTAL_SLOTS = 16;
+const TOTAL_SLOTS = 20;
 const CARDS = [
+    { id: "coquinha", name: "Coquinha", src: "cards/coquinha.jpeg" },
+  { id: "harrop", name: "Harrop", src: "cards/harrop.jpeg" },
+  { id: "lule", name: "faça o L", src: "cards/lule.jpeg" },
+  { id: "paulo", name: "Paulo", src: "cards/paulo.jpeg" },
+  { id: "bike-fantasma", name: "bike fantasma roubada", src: "cards/bike fantasma.jpeg" },
+  { id: "ciclista-fantasma", name: "ciclista da bike fantasma", src: "cards/ciclista fantasma.jpeg" },
+  { id: "clovis", name: "betino o mestre das apostas", src: "cards/clovis.jpeg" },
   { id: "frango-brent", name: "Frango Brent, o Predileto", src: "cards/frango-brent.jpg" },
   { id: "happyvida", name: "Happyvida, o Fingidor de Plantão", src: "cards/happyvida.jpg" },
   { id: "lobichona", name: "Lobichona", src: "cards/lobichona.jpg" },
@@ -315,7 +322,7 @@ const CARDS = [
   { id: "drmamidia", name: "Dr. Mamídia", src: "cards/drmamidia.jpeg" },
   { id: "jacob", name: "Jacob", src: "cards/jacob.jpeg" },
   { id: "skol", name: "Skol", src: "cards/skol.jpeg" },
-  { id: "srsacana", name: "Sr. Sacana", src: "cards/srsacana.jpeg" }
+  { id: "srsacana", name: "Sr. Sacana", src: "cards/srsacana.jpeg" },
 ];
 
 const STORE_KEY = "bau-cartas-v1";
